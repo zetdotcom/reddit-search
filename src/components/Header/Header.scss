@@ -1,0 +1,24 @@
+@import '../../vars.scss';
+
+.header {
+  background: $grey-light;
+  margin: 15px;
+  padding: 10px;
+  background: $grey-light;
+  border-radius: $border-radius;
+  &-title {
+    font-size: 2em;
+    font-family: $Righteous;
+    color: $red;
+  }
+  &-image {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding: 20px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

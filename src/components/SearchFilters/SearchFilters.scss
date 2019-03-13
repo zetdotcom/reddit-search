@@ -1,0 +1,21 @@
+@import '../../vars.scss';
+
+.search-filters__title {
+  margin-right: 5px;
+}
+
+.choose-button {
+  background: $orange;
+  border: none;
+  padding: 3px 7px;
+  margin: 5px;
+  color: whitesmoke;
+  border-radius: $border-radius;
+  &--active {
+    border: 2px solid $dark-orange;
+  }
+}
+
+.search-button, .search-input {
+  width: 100%;
+}

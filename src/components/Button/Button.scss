@@ -1,0 +1,11 @@
+@import '../../vars.scss';
+
+.button {
+  border: none;
+  border-radius: $border-radius;
+  background: $green;
+  padding: 5px 10px;
+  margin: 0 10px;
+  height: 30px;
+
+}

@@ -1,0 +1,59 @@
+@import '../../vars.scss';
+
+.reddit {
+  border: 1px solid $grey;
+  border-radius: $border-radius;
+  display: flex;
+  padding: 5px 7px;
+  margin: 5px;
+  width: 80%;
+  max-width: 660px;
+  &__left-side {
+    flex: 1;
+    border-right: 1px solid $grey;
+    padding: 5px;
+  }
+  &__image img {
+    border-radius: $border-radius;
+    height: 140px;
+    width: 140px;
+  }
+  &__right-side {
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $RobotoSlab;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+  &__author {
+    font-size: 0.8 rem;
+    color: $grey;
+  }
+  .right-side__bottom {
+    background: $grey-light;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 0 0 $border-radius 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 3px;
+    // height: 20px;
+  }
+  .bottom__flair-text {
+    background: $grey;
+    padding: 2px;
+    color: whitesmoke;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .reddit {
+    width: 95%;
+    max-width: unset;
+  }
+}

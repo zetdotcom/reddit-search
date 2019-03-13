@@ -1,0 +1,26 @@
+@import '../../vars.scss';
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background: $grey-light;
+  border-radius: $border-radius;
+  &-item {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 250px;
+  }
+}
+
+@media (max-width: 515px) {
+  .row {
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+}
