@@ -1,7 +1,7 @@
 {
   "main.css": "/reddit-search/static/css/main.5ccea4df.chunk.css",
-  "main.js": "/reddit-search/static/js/main.41f728a0.chunk.js",
-  "main.js.map": "/reddit-search/static/js/main.41f728a0.chunk.js.map",
+  "main.js": "/reddit-search/static/js/main.24c404bb.chunk.js",
+  "main.js.map": "/reddit-search/static/js/main.24c404bb.chunk.js.map",
   "runtime~main.js": "/reddit-search/static/js/runtime~main.487cb32d.js",
   "runtime~main.js.map": "/reddit-search/static/js/runtime~main.487cb32d.js.map",
   "static/js/2.fbce593e.chunk.js": "/reddit-search/static/js/2.fbce593e.chunk.js",
@@ -10,7 +10,7 @@
   "static/js/3.35ca3146.chunk.js": "/reddit-search/static/js/3.35ca3146.chunk.js",
   "static/js/3.35ca3146.chunk.js.map": "/reddit-search/static/js/3.35ca3146.chunk.js.map",
   "index.html": "/reddit-search/index.html",
-  "precache-manifest.f8cb67744ef18b5b0779f14b4b6da69d.js": "/reddit-search/precache-manifest.f8cb67744ef18b5b0779f14b4b6da69d.js",
+  "precache-manifest.2d431b5293848a04745d6f7b6252cde1.js": "/reddit-search/precache-manifest.2d431b5293848a04745d6f7b6252cde1.js",
   "service-worker.js": "/reddit-search/service-worker.js",
   "static/css/3.6ebf8a17.chunk.css.map": "/reddit-search/static/css/3.6ebf8a17.chunk.css.map",
   "static/css/main.5ccea4df.chunk.css.map": "/reddit-search/static/css/main.5ccea4df.chunk.css.map",
