@@ -29,13 +29,11 @@ class App extends Component {
 
   async componentDidMount() {
     this.getReddits();
-    // console.log('state', this.state.data)
   }
 
   async getReddits(e) {
     e && e.preventDefault();
     const { searchTerm, limit, sortBy } = this.state;
-    console.log(searchTerm, limit, sortBy);
     const data = await redditApi.getReddits(searchTerm, limit, sortBy);
     this.setState({ data });
   }
@@ -45,7 +43,6 @@ class App extends Component {
   }
 
   handleSortByChange(event) {
-    console.log(event.target.dataset.sortby);
     this.setState({ sortBy: event.target.dataset.sortby });
   }
 
@@ -56,7 +53,6 @@ class App extends Component {
   render() {
     const limits = [ 10, 20, 30, 50 ];
     const { searchTerm, data, limit, sortBy } = this.state;
-    console.log('data from render', data);
     return (
       <div className="App">
         <Header />
